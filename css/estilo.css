@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em; /* Tamanho um pouco menor para o título */
+    margin-bottom: 30px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 12px 0 8px; /* Reduzido o espaçamento */
+    font-weight: 600;
+    color: #555;
+    text-align: left;
+    font-size: 1.1em; /* Levemente menor */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Reduzi o padding para diminuir a altura */
+    margin-bottom: 18px; /* Ajustado o espaçamento entre campos */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordas levemente mais suaves */
+    font-size: 1.1em; /* Tamanho de texto levemente menor */
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Reduzi a altura do botão */
+    border-radius: 8px;
+    font-size: 1.2em; /* Botão com tamanho menor */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 18px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
